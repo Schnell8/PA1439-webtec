@@ -1,0 +1,43 @@
+.container-all {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid grey;
+    justify-content: space-between;
+}
+
+.container-single {
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.obj-text {
+    font-size: 20px;
+}
+
+.obj-category {
+    font-style: italic;
+}
+
+.fig-title {
+    font-style: italic;
+    margin-bottom: 1em;
+    text-align: right;
+}
+
+.fig-owner {
+    font-style: italic;
+    text-align: right;
+}
+
+@media (max-width: 768px) {
+    /* CSS styles for smaller screens */
+    .container-single {
+        display: block;
+        margin: auto;
+    }
+
+    .single-img {
+        width: 100%;
+    }
+}

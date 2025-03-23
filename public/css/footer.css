@@ -1,0 +1,86 @@
+/** footer.css */
+html {
+    background-color: #000;
+}
+
+/*
+ * Set colors and size.
+ */
+.footer {
+    background: linear-gradient(to bottom, #666, #000);
+    color: #FFF;
+    padding: 0 1em;
+    font-family: sans-serif;
+}
+
+/*
+ * Style the links.
+ */
+
+/*
+ * Style the content.
+ */
+.box h2 {
+    border-bottom: 2px solid #fff;
+}
+
+.final {
+    text-align: center;
+}
+
+/*
+ * Style the rows and columns.
+ */
+.footer .row {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    text-align: center;
+}
+
+.footer .row > .col1 {
+    width: 100%;
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px;
+}
+.socials a i{
+    font-size: 3rem;
+    width: 60px;
+    transition: color .4s ease;
+}
+.socials a:hover i{
+    color: grey;
+}
+
+ul {
+    padding: 0;
+}
+
+/**
+ * Add colors to rows and columns to debug and visualize.
+ */
+/*
+.footer .row {
+    background-color: tomato;
+    padding: 1em;
+}
+
+.footer .row > .col1,
+.footer .row > .col3 {
+    background-color: BlanchedAlmond;
+    color: Brown;
+    padding: 1em;
+} */

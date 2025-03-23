@@ -1,0 +1,13 @@
+.art-italic {
+    font-style: italic;
+    font-family: sans-serif;
+}
+
+.art-text {
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.single-art {
+    font-family: sans-serif;
+}

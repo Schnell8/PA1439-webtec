@@ -1,0 +1,57 @@
+/** header.css */
+
+/*
+ * Set colors, size and prepare positioning.
+ */
+.header {
+    background-color: var(--light-color);
+    border-bottom: 4px solid var(--dark-color);
+    position: relative;
+}
+
+/*
+ * Add background image.
+ */
+.header {
+    background-color: var(--light-color);
+    border-bottom: 4px solid var(--dark-color);
+    position: relative;
+
+    background-image: url("../img/maggy/begravningsfolje.jpg");
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-h1 {
+    margin: 0;
+    font-size: 50px;
+}
+
+.header-p {
+    font-style: italic;
+    font-size: 25px;
+}
+
+.header-div {
+    color: #fff;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+@media (max-width: 768px) {
+    /* CSS styles for smaller screens */
+    .header-h1 {
+        font-size: 25px;
+        margin-bottom: 1em;
+    }
+
+    .header-p {
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,16 @@
+.about {
+    font-family: sans-serif;
+}
+
+.about-me {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    /* CSS styles for smaller screens */
+    .about-me {
+        display: block;
+    }
+}

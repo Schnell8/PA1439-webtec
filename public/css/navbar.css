@@ -1,0 +1,52 @@
+/** navbar.css */
+
+/*
+ * Add colors and borders.
+ */
+ .navbar {
+    background-color: transparent;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: sans-serif
+}
+
+/*
+ * Style links.
+ */
+.navbar a {
+    display: inline-block;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    text-decoration: none;
+    padding-inline: 1em;
+    transition: color 0.4s ease;
+}
+
+.navbar a:hover {
+    color: grey;
+}
+
+
+/*
+ * Remove bullets, margins and padding from the list.
+ */
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Put the li items on a line.
+ */
+.navbar li {
+    display: inline;
+    margin: 0.5em;
+}
+
+@media (max-width: 768px) {
+    /* CSS styles for smaller screens */
+    .navbar {
+        font-size: 1em;
+    }
+}
